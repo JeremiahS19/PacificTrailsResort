@@ -71,7 +71,7 @@ dt { color: #002171;
 section {  padding-left: .5em;
     padding-right: .5em;
          float: left;
-         width: 40%;
+         width: 33%;
 }			
 footer { background-color: #FFF;
        font-size: .70em;
@@ -81,8 +81,7 @@ footer { background-color: #FFF;
 }
 
 table{
-  border: 1px solid #3399CC;
-  float: left; 
+  border: 1px solid #3399CC; 
 }
 td,th,tr{
   padding: 17px;
@@ -95,7 +94,7 @@ tr:nth-child(even) {
   background-color: #DFEDF8;
 }
 td{
-  text-align: center;
+  text-align: left;
 }
 
 form{
@@ -142,4 +141,8 @@ input{
              padding-right: 10%; }
     #wrapper { margin: auto;
                width: 80%; }	
-}				 
+}
+video{
+  float:right;
+  margin: 2em
+}
